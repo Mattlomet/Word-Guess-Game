@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game</title>
+    <script src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <a class="navbar-brand">Word Guess Game</a>
+    </nav>
+    <div class="container marginTop">
+        <div class="row">
+            <div class="col-sm-10">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-3 centered">Guess any letter to Begin!!!</h1>
+                        <p class="lead centered">Guess a letter correctly reveal it below. Be careful you only get 10 guesses!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-3 centered" id="wordReveal">_ _ _ _ _ _ _ _ _</h1>
+                        <p class="lead centered">Letters Guessed:
+                            <span id="letterGuessed"></span>
+                        </p>
+                        <p class="lead centered">Guesses Remaining:
+                            <span id="guessesRemaining">10</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
