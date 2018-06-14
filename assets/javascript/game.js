@@ -22,6 +22,7 @@ function WordGuessGame(userLife, wordArray, letterGuessed, wordSelected) {
     this.letterGuessed = letterGuessed;
     this.wordSelected = wordSelected;
 
+
     this.selectWord = function () {
         var randomIndex = Math.floor(Math.random() * wordArray.length);
         var randomWord = wordArray[randomIndex];
